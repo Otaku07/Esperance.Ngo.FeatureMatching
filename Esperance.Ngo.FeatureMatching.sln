@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esperance.Ngo.FeatureMatchi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esperance.Ngo.FeatureMatching2", "Esperance.Ngo.FeatureMatching2\Esperance.Ngo.FeatureMatching2.csproj", "{D43338C0-24A0-4114-A36D-1665D221F11A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esperance.Ngo.FeatureMatching.Console", "Esperance.Ngo.FeatureMatching.Console\Esperance.Ngo.FeatureMatching.Console.csproj", "{040DC342-2C21-4F60-95BA-151A74EC3B33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D43338C0-24A0-4114-A36D-1665D221F11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D43338C0-24A0-4114-A36D-1665D221F11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D43338C0-24A0-4114-A36D-1665D221F11A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040DC342-2C21-4F60-95BA-151A74EC3B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040DC342-2C21-4F60-95BA-151A74EC3B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040DC342-2C21-4F60-95BA-151A74EC3B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040DC342-2C21-4F60-95BA-151A74EC3B33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

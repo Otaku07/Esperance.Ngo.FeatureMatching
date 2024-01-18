@@ -25,17 +25,15 @@ public class FeatureMatchingUnitTest
         } 
  
         var objectImageData = await File.ReadAllBytesAsync(Path.Combine(executingPath, 
-            "Guillaume-Chervet-object.png")); 
+            "Ngo-Esperance-object.jpg")); 
  
         var detectObjectInScenesResults = await new 
             ObjectDetection().DetectObjectInScenesAsync(objectImageData, imageScenesData); 
  
         
-        Assert.Equal("[{\"X\":116,\"Y\":158},{\"X\":87,\"Y\":272},{\"X\":263,\"Y\":294},{\"X\":
-        276,\"Y\":179}]",JsonSerializer.Serialize(detectObjectInScenesResults[0].Points)); 
+        Assert.Equal("[{\"X\":117,\"Y\":158},{\"X\":87,\"Y\":272},{\"X\":263,\"Y\":294},{\"X\":276,\"Y\":179}]",JsonSerializer.Serialize(detectObjectInScenesResults[0].Points)); 
         
-        Assert.Equal("[{\"X\":116,\"Y\":158},{\"X\":87,\"Y\":272},{\"X\":263,\"Y\":294},{\"X\":
-        276,\"Y\":179}]",JsonSerializer.Serialize(detectObjectInScenesResults[1].Points)); 
+        Assert.Equal("[{\"X\":117,\"Y\":158},{\"X\":87,\"Y\":272},{\"X\":263,\"Y\":294},{\"X\":276,\"Y\":179}]",JsonSerializer.Serialize(detectObjectInScenesResults[1].Points)); 
     } 
  
     private static string GetExecutingPath() 
